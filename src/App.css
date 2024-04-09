@@ -1,0 +1,63 @@
+
+*,
+*::before
+*::after
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+line-height: 1;
+text-decoration: none;
+color: white;
+
+}
+body{
+  background-color: black;
+  color: aliceblue;
+}
+img{
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+input,
+button{
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+button{
+  font-size: 15px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+button:hover {
+  color: white;
+  background-color: cornflowerblue;
+  box-shadow: 0 0 20px;
+  border-color: cornflowerblue;
+  transform: scale(1.1);
+  transition: transform .5s;
+  
+}
+
+.app{
+  background-image: url('https://wallpapercrafter.com/th8002/793136-clouds-cloud-water-sun-sunray-sunshine-4K.jpg');
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app h2{
+  background-color: black;
+}

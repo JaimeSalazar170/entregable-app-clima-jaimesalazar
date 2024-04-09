@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Belgrano&family=Kaisei+Opti&family=Lilita+One&family=Madimi+One&family=Marko+One&family=Molle&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stoke:wght@300;400&display=swap');
+
+.weather__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #888888a2;
+    padding: 20px;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    max-width: 550px;
+}
+.weather__title{
+    font-size: 40PX;
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+    font-family: 'Pt Serif';
+}
+.weather__place{
+    font-size: 30px;
+    text-shadow: 0 0 15px black;
+
+}
+.weather__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 50px;
+    flex-wrap: wrap;
+}
+.weather__description{
+    font-size: 30px;
+    text-transform: capitalize;
+    text-shadow: 0 0 15px black;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    text-align: center;
+}
+.weather__item{
+    font-size: 20px;
+    text-shadow: 0 0 15px black;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+.weather__numbers{
+    font-size: 30px;
+    text-shadow: 0 0 15px black;
+}
